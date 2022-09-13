@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks for lowercase
+ * @c: chracter to compare
  * Return: Always 0
  */
 
