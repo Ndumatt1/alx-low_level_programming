@@ -4,7 +4,7 @@
  *
  * @n: interger to print last digit from
  *
- * return: value of last digit
+ * Return: value of last digit of n
  */
 int print_last_digit(int n)
 {
