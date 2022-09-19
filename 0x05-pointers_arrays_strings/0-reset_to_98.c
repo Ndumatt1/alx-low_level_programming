@@ -8,8 +8,14 @@
 
 void reset_to_98(int *n)
 {
-	int j = 98;
-	 *n = j;
+	*n = 402;
+	{
+	_putchar("%d", n);
+	}
 
-	_putchar("%d", j);
+	*n = 98;
+	{
+		_putchar("%d", n);
+	}
+
 }
