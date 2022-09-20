@@ -8,7 +8,9 @@
 
 int _strlen(char *s)
 {
-	size_t strlen(const char *string);
+	int i;
 
-	return (0);
+	for (i = 0; s[i] != '\0'; i++)
+	{}
+	return (i);
 }
