@@ -14,4 +14,5 @@ void swap_int(int *a, int *b)
 	*b = 402;
 
 	*a = *b;
+	*b = *a;
 }
