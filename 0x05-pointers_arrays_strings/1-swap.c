@@ -10,11 +10,8 @@
 
 void swap_int(int *a, int *b)
 {
-	a = 90;
-	b = 10;
+	*a = 98;
+	*b = 402;
 
 	*a = *b;
-	*b = *a;
-
-	_putchar(*a, *b);
 }
