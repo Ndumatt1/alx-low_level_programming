@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - concatenates two strings
+ *_strncat - concatenates two strings
  *
  * @dest: destination string
  *
@@ -14,16 +14,16 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
+	int j;
 
-	for (i = 0; i <= '\0'; i++)
-	{
-		_putchar(src[i]);
-	}
+	for (i = 0; dest[i] != '\0'; i++)
+	{}
 
-	if (n >= 0 && (n != '\0') 
-			n++;
+	for (j = 0; j < n && src[j] != '\0'; j++)
 	{
-		_putchar(src[n]);
+		dest[i + j] = src[j];
 	}
-	_putchar(dest, src);
+	dest[i + j] = '\0';
+
+	return (dest);
 }
