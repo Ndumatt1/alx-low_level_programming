@@ -9,9 +9,5 @@
 
 void _puts_recursion(char *s)
 {
-	char b;
-
-	*s = b;
-
-	_putchar("s[b]\n");
+	_puts_recursion(s);
 }
