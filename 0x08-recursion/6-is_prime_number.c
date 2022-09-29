@@ -29,5 +29,5 @@ int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
-	return (prime_guess(2, n));
+	return (print_guess(2, n));
 }
