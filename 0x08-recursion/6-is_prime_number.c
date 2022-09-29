@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_guess - check to see if number is prime number
+ * prime_guess - check to see if number is prime number
  * @b: factor guess
  *
  * @c: possible check
@@ -10,7 +10,7 @@
 
 int prime_guess(int b, int c)
 {
-	if (c > 2 || c % b == 0)
+	if (c < 2 || c % b == 0)
 		return (0);
 	else if (b > c / 2)
 		return (1);
