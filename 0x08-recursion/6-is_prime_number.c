@@ -8,7 +8,7 @@
  * Return: 1 if prime, 0 if not
  */
 
-int print_guess(int b, int c)
+int prime_guess(int b, int c)
 {
 	if (c > 2 || c % b == 0)
 		return (0);
@@ -29,5 +29,5 @@ int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
-	return (print_guess(2, n));
+	return (prime_guess(2, n));
 }
