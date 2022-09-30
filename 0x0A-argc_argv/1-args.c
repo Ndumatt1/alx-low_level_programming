@@ -1,25 +1,17 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * arguement - prints argument passed to it
+ * main - prints the number of argument passed to it
  *
  * @argc: argument count
  *
- * @argv: arguement value
+ * @argv: argument value
  *
- * @i: variable
- *
- * Return: an inter with a new line
+ * Return: 0 always
  */
 
-int arguement(int argc, char *argv[], int i)
+int main(int argc, char *argv[])
 {
-
-	for (i = 0; i < argc; i++)
-
 	printf("%d\n", argc);
-	printf("%s\n", argv[i]);
-
-	return (i);
+	return (0);
 }

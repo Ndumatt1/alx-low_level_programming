@@ -1,24 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * print_name -  prints name of program followed by a newline
+ * main - prints the program name
  *
- * @argc: argument count
+ * @argc: number of argument passed to the function
  *
- * @argv: argument value
+ * @argv: argument vector of pointers to string
  *
- * @i: variable storing index
+ * Return: 0 always
  */
 
-void print_name(int argc, char *argv[], int i)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	for (i = 0; i < argc; i++)
-	{
-		while (i == 0)
-		{
-		_putchar(argv[i]);
-		}
-	}
-	_putchar('\n');
+	printf("%s\n", argv[0]);
+	return (0);
 }
