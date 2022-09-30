@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_name: prints name of program folowed by a newline
+ * print_name -  prints name of program followed by a newline
  *
  * @argc: argument count
  *
@@ -13,10 +13,12 @@
 
 void print_name(int argc, char *argv[], int i)
 {
-	if (argc > 0)
+	for (i = 0; i < argc; i++)
 	{
 		while (i == 0)
+		{
 		_putchar(argv[i]);
+		}
 	}
 	_putchar('\n');
 }
