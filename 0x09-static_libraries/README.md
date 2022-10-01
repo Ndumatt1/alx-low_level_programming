@@ -1,1 +1,1 @@
-This project contains task on static library in C programming language
+script_to_create_a_static_library
