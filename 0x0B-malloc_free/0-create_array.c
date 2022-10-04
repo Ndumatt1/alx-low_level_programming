@@ -8,10 +8,6 @@
  *
  * @c: array name
  *
- * @i: array index
- *
- * @a: pointer to c
- *
  * Return: pointer to the aray or null if it fails
  */
 
