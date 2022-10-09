@@ -22,10 +22,11 @@ ptr = malloc(max * sizeof(int));
 if (ptr == NULL)
 return (NULL);
 for (i = 0; i < max; i++)
-ptr[i] = min + max;
+ptr[i] = 0;
 for (j = 0; j < 4; j++)
 {
-	ptr[i] = arr[j];
+arr[j] = min + max;
 }
+ptr[i] = arr[j];
 return (ptr);
 }
