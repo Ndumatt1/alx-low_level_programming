@@ -18,6 +18,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	struct dog ptr;
 
+	d = malloc(sizeof(struct dog));
+
 	d = &ptr;
 
 	strcpy(d->name, name);
