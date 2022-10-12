@@ -11,9 +11,6 @@
  */
 void print_dog(struct dog *d)
 {
-	struct dog my_dog;
-
-	d = &my_dog;
 
 	if (d == NULL)
 	{
