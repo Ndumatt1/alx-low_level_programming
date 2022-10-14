@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * array_iterator - execute a function given as parameter on each element of an array
+ * array_iterator - execute a function
  *
  * @array: array
  *
@@ -13,7 +13,7 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	long unsigned int i;
+	unsigned long int i;
 
 	for (i = 0; i < size; i++)
 	{
