@@ -1,4 +1,4 @@
-#ifndef VARIADIC_FUCNTIONS_H
+#ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 
 int _putchar();
