@@ -8,8 +8,21 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned int i;
+	int i, count = 0;
+	unsigned long int current;
 
-	for (i = 1 << (sizeof(n) * 4 - 1); i; i = i >> 1)
-		printf("%u", !!(n & i));
+	for (i = 63; i >= 0; i--)
+	{
+		current = n >> i;
+
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
+	}
+	if (!count)
+		_putchar('0');
 }
