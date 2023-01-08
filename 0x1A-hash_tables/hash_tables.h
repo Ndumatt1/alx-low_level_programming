@@ -42,4 +42,5 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 int handle_collision(hash_node_t **ptr, const char *key, const char *value);
 
+char *hash_table_get(const hash_table *ht, const char *key);
 #endif /* HASH_TABLES_H */
