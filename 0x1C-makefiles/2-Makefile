@@ -1,0 +1,7 @@
+CC=gcc
+SRC=school.c main.c
+OBJ=$(wildcard *.o)
+NAME=school
+
+all:
+	$(CC) $(OBJ) -o $(NAME)
